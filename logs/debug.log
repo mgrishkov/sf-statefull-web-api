@@ -11,14 +11,14 @@ ApplicationParameters  : { "Web1_TargetReplicaSetSize" = "3";
                          e":null,"ConfigPackageLinkFolder":null,"DataPackageName":null,"DataPackageLinkFolder":null,"Lo
                          ckFile":null,"WorkingFolder":null,"ServiceManifestName":"Web1Pkg","EntryPointType":"Main","Deb
                          ugExePath":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Pac
-                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {9f27bd36-d707-4fb6-82e3-788a1139
-                         e0d9} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
+                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {db130191-9df8-474d-b267-3ff2dfd6
+                         6daa} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
 
 Create application succeeded.
 
 
 Finished executing script 'Publish-NewServiceFabricApplication'.
-Time elapsed: 00:00:15.9457830
+Time elapsed: 00:00:15.0889446
 Started executing script 'Get-ServiceFabricApplicationStatus'.
 [void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Get-ServiceFabricApplicationStatus -ApplicationName 'fabric:/Application1' -ErrorAction Stop
 The application has started.
@@ -31,120 +31,37 @@ fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\Web1.exe'. Symbols loaded.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Fabric\v4.0_6.0.0.0__31bf3856ad364e35\System.Fabric.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Services.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\netstandard.dll'. Module was built without symbols.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.Interfaces.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Internal.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Fabric.Strings\v4.0_6.0.0.0__31bf3856ad364e35\System.Fabric.Strings.dll'. Cannot find or open the PDB file.
 Service Status:
+'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Cannot find or open the PDB file.
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
+'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\Web1.exe'. Symbols loaded.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Fabric\v4.0_6.0.0.0__31bf3856ad364e35\System.Fabric.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Services.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\netstandard.dll'. Module was built without symbols.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.Interfaces.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Internal.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Fabric.Strings\v4.0_6.0.0.0__31bf3856ad364e35\System.Fabric.Strings.dll'. Cannot find or open the PDB file.
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Cannot find or open the PDB file.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.dll'. Cannot find or open the PDB file.
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.dll'. Cannot find or open the PDB file.
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code\NS\Microsoft.ServiceFabric.Data.Impl.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App44\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Diagnostics.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App45\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Diagnostics.dll'. Cannot find or open the PDB file.
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
@@ -181,6 +98,72 @@ Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
@@ -274,95 +257,9 @@ Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.AggregateException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
@@ -431,98 +328,12 @@ Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
 Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
@@ -550,10 +361,30 @@ Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.D
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Service Status:
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.AggregateException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
@@ -577,29 +408,118 @@ Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.AggregateException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Something is taking too long, the application is still not ready.
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
 Finished executing script 'Get-ServiceFabricApplicationStatus'.
-Time elapsed: 00:00:49.8631897
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Time elapsed: 00:00:51.3766597
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
@@ -612,7 +532,6 @@ Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-The thread 0x11e8 has exited with code 0 (0x0).
 Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
@@ -923,15 +842,340 @@ Exception thrown: 'System.AggregateException' in mscorlib.dll
 Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-The program '[10144] Web1.exe' has exited with code 0 (0x0).
-Started executing script 'Unpublish-ServiceFabricApplication'.
-[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Unpublish-ServiceFabricApplication -ApplicationName 'fabric:/Application1' -ErrorAction Stop
-Removing application...
-Remove application instance succeeded
-Finished executing script 'Unpublish-ServiceFabricApplication'.
-Time elapsed: 00:00:10.5323953
-Started executing script 'UnregisterApplicationType'.
-[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; if (Get-ServiceFabricApplicationType -ApplicationTypeName 'Application1Type' | Where-Object { $_.ApplicationTypeVersion -eq '1.0.0' }) { Unregister-ServiceFabricApplicationType -ApplicationTypeName 'Application1Type' -ApplicationTypeVersion '1.0.0' -ErrorAction Stop -Force }
-Unregister application type succeeded.
-Finished executing script 'UnregisterApplicationType'.
-Time elapsed: 00:00:11.8026132
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.AggregateException' in mscorlib.dll

@@ -241,3 +241,114 @@ Started executing script 'UnregisterApplicationType'.
 Unregister application type succeeded.
 Finished executing script 'UnregisterApplicationType'.
 Time elapsed: 00:00:11.8026132
+Started executing script 'Publish-NewServiceFabricApplication'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Publish-NewServiceFabricApplication -ApplicationPackagePath 'C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug' -ApplicationParameterFilePath 'C:\Work\_temp\sf-statefull-web-api\Application1\PublishProfiles\..\ApplicationParameters\Local.5Node.xml' -ApplicationParameter @{_WFDebugParams_='[{"""CodePackageName""":"""Code""","""CodePackageLinkFolder""":null,"""ConfigPackageName""":null,"""ConfigPackageLinkFolder""":null,"""DataPackageName""":null,"""DataPackageLinkFolder""":null,"""LockFile""":null,"""WorkingFolder""":null,"""ServiceManifestName""":"""Web1Pkg""","""EntryPointType""":"""Main""","""DebugExePath""":"""C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Packages\\Debugger\\VsDebugLaunchNotify.exe""","""DebugArguments""":""" {007e86d3-5247-4e33-bc8c-de2f8c4b27b1} -p [ProcessId] -tid [ThreadId]""","""DebugParametersFile""":null}]'} -Action Create -SkipPackageValidation:$true -ErrorAction Stop
+C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug is not found.
+C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\Publish-NewServiceFabricApplication.ps1:
+101 §­ Є:9
++         throw $errMsg
++         ~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (C:\Work\_temp\s...g is not found.:String) [], RuntimeException
+    + FullyQualifiedErrorId : C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug is not found.
+ 
+Finished executing script 'Publish-NewServiceFabricApplication'.
+Time elapsed: 00:00:08.5870150
+Started executing script 'Unpublish-ServiceFabricApplication'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Unpublish-ServiceFabricApplication -ApplicationName 'fabric:/Application1' -ErrorAction Stop
+Removing application...
+Finished executing script 'Unpublish-ServiceFabricApplication'.
+Time elapsed: 00:00:08.1193933
+Started executing script 'UnregisterApplicationType'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; if (Get-ServiceFabricApplicationType -ApplicationTypeName 'Application1Type' | Where-Object { $_.ApplicationTypeVersion -eq '1.0.0' }) { Unregister-ServiceFabricApplicationType -ApplicationTypeName 'Application1Type' -ApplicationTypeVersion '1.0.0' -ErrorAction Stop -Force }
+Finished executing script 'UnregisterApplicationType'.
+Time elapsed: 00:00:07.4530941
+Started executing script 'Publish-NewServiceFabricApplication'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Publish-NewServiceFabricApplication -ApplicationPackagePath 'C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug' -ApplicationParameterFilePath 'C:\Work\_temp\sf-statefull-web-api\Application1\PublishProfiles\..\ApplicationParameters\Local.5Node.xml' -ApplicationParameter @{_WFDebugParams_='[{"""CodePackageName""":"""Code""","""CodePackageLinkFolder""":null,"""ConfigPackageName""":null,"""ConfigPackageLinkFolder""":null,"""DataPackageName""":null,"""DataPackageLinkFolder""":null,"""LockFile""":null,"""WorkingFolder""":null,"""ServiceManifestName""":"""Web1Pkg""","""EntryPointType""":"""Main""","""DebugExePath""":"""C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Packages\\Debugger\\VsDebugLaunchNotify.exe""","""DebugArguments""":""" {db130191-9df8-474d-b267-3ff2dfd66daa} -p [ProcessId] -tid [ThreadId]""","""DebugParametersFile""":null}]'} -Action Create -SkipPackageValidation:$true -ErrorAction Stop
+Creating application...
+
+
+ApplicationName        : fabric:/Application1
+ApplicationTypeName    : Application1Type
+ApplicationTypeVersion : 1.0.0
+ApplicationParameters  : { "Web1_TargetReplicaSetSize" = "3";
+                         "Web1_PartitionCount" = "1";
+                         "Web1_MinReplicaSetSize" = "3";
+                         "_WFDebugParams_" = "[{"CodePackageName":"Code","CodePackageLinkFolder":null,"ConfigPackageNam
+                         e":null,"ConfigPackageLinkFolder":null,"DataPackageName":null,"DataPackageLinkFolder":null,"Lo
+                         ckFile":null,"WorkingFolder":null,"ServiceManifestName":"Web1Pkg","EntryPointType":"Main","Deb
+                         ugExePath":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Pac
+                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {db130191-9df8-474d-b267-3ff2dfd6
+                         6daa} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
+
+Create application succeeded.
+
+
+Finished executing script 'Publish-NewServiceFabricApplication'.
+Time elapsed: 00:00:15.0889446
+Started executing script 'Get-ServiceFabricApplicationStatus'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Get-ServiceFabricApplicationStatus -ApplicationName 'fabric:/Application1' -ErrorAction Stop
+The application has started.
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Something is taking too long, the application is still not ready.
+Finished executing script 'Get-ServiceFabricApplicationStatus'.
+Time elapsed: 00:00:51.3766597
+The application URL is not set or is not an HTTP/HTTPS URL so the browser will not be opened to the application.
