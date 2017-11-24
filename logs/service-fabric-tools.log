@@ -355,3 +355,183 @@ Something is taking too long, the application is still not ready.
 Finished executing script 'Get-ServiceFabricApplicationStatus'.
 Time elapsed: 00:00:46.4005983
 The application URL is not set or is not an HTTP/HTTPS URL so the browser will not be opened to the application.
+Started executing script 'Publish-NewServiceFabricApplication'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Publish-NewServiceFabricApplication -ApplicationPackagePath 'C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug' -ApplicationParameterFilePath 'C:\Work\_temp\sf-statefull-web-api\Application1\PublishProfiles\..\ApplicationParameters\Local.5Node.xml' -ApplicationParameter @{_WFDebugParams_='[{"""CodePackageName""":"""Code""","""CodePackageLinkFolder""":null,"""ConfigPackageName""":null,"""ConfigPackageLinkFolder""":null,"""DataPackageName""":null,"""DataPackageLinkFolder""":null,"""LockFile""":null,"""WorkingFolder""":null,"""ServiceManifestName""":"""Web1Pkg""","""EntryPointType""":"""Main""","""DebugExePath""":"""C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Packages\\Debugger\\VsDebugLaunchNotify.exe""","""DebugArguments""":""" {fc974891-a2c7-469a-8d41-5c3853210e74} -p [ProcessId] -tid [ThreadId]""","""DebugParametersFile""":null}]'} -Action Create -SkipPackageValidation:$true -ErrorAction Stop
+Creating application...
+
+
+ApplicationName        : fabric:/Application1
+ApplicationTypeName    : Application1Type
+ApplicationTypeVersion : 1.0.0
+ApplicationParameters  : { "Web1_TargetReplicaSetSize" = "3";
+                         "Web1_PartitionCount" = "1";
+                         "Web1_MinReplicaSetSize" = "3";
+                         "_WFDebugParams_" = "[{"CodePackageName":"Code","CodePackageLinkFolder":null,"ConfigPackageNam
+                         e":null,"ConfigPackageLinkFolder":null,"DataPackageName":null,"DataPackageLinkFolder":null,"Lo
+                         ckFile":null,"WorkingFolder":null,"ServiceManifestName":"Web1Pkg","EntryPointType":"Main","Deb
+                         ugExePath":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Pac
+                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {fc974891-a2c7-469a-8d41-5c385321
+                         0e74} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
+
+Create application succeeded.
+
+
+Finished executing script 'Publish-NewServiceFabricApplication'.
+Time elapsed: 00:00:11.1361963
+Started executing script 'Get-ServiceFabricApplicationStatus'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Get-ServiceFabricApplicationStatus -ApplicationName 'fabric:/Application1' -ErrorAction Stop
+The application has started.
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Something is taking too long, the application is still not ready.
+Finished executing script 'Get-ServiceFabricApplicationStatus'.
+Time elapsed: 00:00:47.1003089
+The application URL is not set or is not an HTTP/HTTPS URL so the browser will not be opened to the application.
+Started executing script 'Publish-NewServiceFabricApplication'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Publish-NewServiceFabricApplication -ApplicationPackagePath 'C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug' -ApplicationParameterFilePath 'C:\Work\_temp\sf-statefull-web-api\Application1\PublishProfiles\..\ApplicationParameters\Local.5Node.xml' -ApplicationParameter @{_WFDebugParams_='[{"""CodePackageName""":"""Code""","""CodePackageLinkFolder""":null,"""ConfigPackageName""":null,"""ConfigPackageLinkFolder""":null,"""DataPackageName""":null,"""DataPackageLinkFolder""":null,"""LockFile""":null,"""WorkingFolder""":null,"""ServiceManifestName""":"""Web1Pkg""","""EntryPointType""":"""Main""","""DebugExePath""":"""C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Packages\\Debugger\\VsDebugLaunchNotify.exe""","""DebugArguments""":""" {e8c18080-3fbe-4ce9-b2e4-f2b4055ee294} -p [ProcessId] -tid [ThreadId]""","""DebugParametersFile""":null}]'} -Action Create -SkipPackageValidation:$true -ErrorAction Stop
+Creating application...
+
+
+ApplicationName        : fabric:/Application1
+ApplicationTypeName    : Application1Type
+ApplicationTypeVersion : 1.0.0
+ApplicationParameters  : { "Web1_TargetReplicaSetSize" = "3";
+                         "Web1_PartitionCount" = "1";
+                         "Web1_MinReplicaSetSize" = "3";
+                         "_WFDebugParams_" = "[{"CodePackageName":"Code","CodePackageLinkFolder":null,"ConfigPackageNam
+                         e":null,"ConfigPackageLinkFolder":null,"DataPackageName":null,"DataPackageLinkFolder":null,"Lo
+                         ckFile":null,"WorkingFolder":null,"ServiceManifestName":"Web1Pkg","EntryPointType":"Main","Deb
+                         ugExePath":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Pac
+                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {e8c18080-3fbe-4ce9-b2e4-f2b4055e
+                         e294} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
+
+Create application succeeded.
+
+
+Finished executing script 'Publish-NewServiceFabricApplication'.
+Time elapsed: 00:00:11.3145998
+Started executing script 'Get-ServiceFabricApplicationStatus'.
+[void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Get-ServiceFabricApplicationStatus -ApplicationName 'fabric:/Application1' -ErrorAction Stop
+The application has started.
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
+Something is taking too long, the application is still not ready.
+Finished executing script 'Get-ServiceFabricApplicationStatus'.
+Time elapsed: 00:00:46.6099535
+The application URL is not set or is not an HTTP/HTTPS URL so the browser will not be opened to the application.

@@ -2,10 +2,10 @@ Restoring NuGet packages...
 To prevent NuGet from restoring packages during build, open the Visual Studio Options dialog, click on the Package Manager node and uncheck 'Allow NuGet to download missing packages during build.'
 Committing restore...
 Tool assets file has not changed. Skipping assets file write. Path: C:\Users\grishkov.mn\.nuget\packages\.tools\microsoft.visualstudio.web.codegeneration.tools\1.0.1\netcoreapp2.0\project.assets.json
-Restore completed in 54,14 ms for C:\Work\_temp\sf-statefull-web-api\Web1\Web1.csproj.
+Restore completed in 33,68 ms for C:\Work\_temp\sf-statefull-web-api\Web1\Web1.csproj.
 Committing restore...
 Assets file has not changed. Skipping assets file writing. Path: C:\Work\_temp\sf-statefull-web-api\Web1\obj\project.assets.json
-Restore completed in 35,4 ms for C:\Work\_temp\sf-statefull-web-api\Web1\Web1.csproj.
+Restore completed in 37,05 ms for C:\Work\_temp\sf-statefull-web-api\Web1\Web1.csproj.
 1>------ Build started: Project: Application1, Configuration: Debug x64 ------
 1>Target PrepareForBuild:
 1>  Creating directory "bin\Debug\".
@@ -15,7 +15,7 @@ Restore completed in 35,4 ms for C:\Work\_temp\sf-statefull-web-api\Web1\Web1.cs
 2>Started executing script 'GetApplicationExistence'.
 -------- Package started: Project: Application1, Configuration: Debug x64 ------
 2>Finished executing script 'GetApplicationExistence'.
-2>Time elapsed: 00:00:05.0655193
+2>Time elapsed: 00:00:05.3472240
 Target PrepareForBuild:
   Creating directory "bin\Debug\".
 Target CleanupEmptyRefsFolder:
@@ -84,20 +84,18 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\appsettings.Development.json".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\appsettings.json".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\libuv.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AI.Agent.Intercept.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AI.DependencyCollector.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AI.PerfCounterCollector.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AI.ServerTelemetryChannel.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ApplicationInsights.AspNetCore.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ApplicationInsights.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Antiforgery.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Authentication.Abstractions.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Authentication.Core.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Authorization.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Authorization.Policy.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Cors.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.DataProtection.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.DataProtection.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Diagnostics.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Diagnostics.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Hosting.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Hosting.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll".
@@ -118,47 +116,55 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.Formatters.Json.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.Localization.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.Host.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.RazorPages.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.TagHelpers.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Mvc.ViewFeatures.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Razor.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Razor.Runtime.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Routing.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Routing.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Server.IISIntegration.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Server.Kestrel.Core.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Server.Kestrel.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Server.Kestrel.Https.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.AspNetCore.WebUtilities.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.CodeAnalysis.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.CodeAnalysis.Razor.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Caching.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.Binder.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.CommandLine.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.EnvironmentVariables.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.FileExtensions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.Json.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Configuration.UserSecrets.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.DiagnosticAdapter.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.FileProviders.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.FileProviders.Composite.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.FileProviders.Physical.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.FileSystemGlobbing.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Globalization.CultureInfoCache.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Hosting.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Localization.Abstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Localization.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Logging.Configuration.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Logging.Console.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Logging.Debug.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Logging.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.ObjectPool.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Options.ConfigurationExtensions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Options.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.PlatformAbstractions.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Primitives.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.WebEncoders.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Net.Http.Headers.dll".
@@ -172,7 +178,9 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Preview.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Services.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Win32.Primitives.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Win32.Registry.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\netstandard.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Newtonsoft.Json.Bson.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Newtonsoft.Json.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.CSharp.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.AspNetCore.dll".
@@ -185,10 +193,12 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Preview.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Services.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.Win32.Primitives.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.Win32.Registry.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\mscorlib.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\netfx.force.conflicts.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\netstandard.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.AppContext.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Buffers.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Collections.Concurrent.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Collections.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Collections.NonGeneric.dll".
@@ -200,7 +210,6 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.ComponentModel.EventBasedAsync.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.ComponentModel.Primitives.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.ComponentModel.TypeConverter.dll".
-    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Configuration.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Console.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Core.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Data.Common.dll".
@@ -264,6 +273,7 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Resources.Reader.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Resources.ResourceManager.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Resources.Writer.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.CompilerServices.Unsafe.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.CompilerServices.VisualC.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.Extensions.dll".
@@ -284,6 +294,7 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.Encoding.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.Primitives.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.X509Certificates.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.Xml.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Principal.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Principal.Windows.dll".
@@ -320,6 +331,7 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Collections.Immutable.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Collections.NonGeneric.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Collections.Specialized.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.ComponentModel.Annotations.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.ComponentModel.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.ComponentModel.EventBasedAsync.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.ComponentModel.Primitives.dll".
@@ -399,6 +411,7 @@ Target PackageDeployableServices:
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Encoding.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Primitives.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.X509Certificates.dll".
+    Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Xml.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Principal.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Principal.Windows.dll".
     Deleting file "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.SecureString.dll".
@@ -521,18 +534,19 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.primitives\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.Primitives.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.webencoders\2.0.0\lib\netstandard2.0\Microsoft.Extensions.WebEncoders.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Extensions.WebEncoders.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.net.http.headers\2.0.1\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Net.Http.Headers.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Internal.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Internal.Strings.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Internal.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Internal.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Preview.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Preview.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\runtimes\win\lib\netstandard2.0\System.Fabric.Management.ServiceModel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Management.ServiceModel.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\runtimes\win\lib\netstandard2.0\System.Fabric.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Strings.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\runtimes\win\lib\netstandard2.0\System.Fabric.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.aspnetcore.abstractions\3.0.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.AspNetCore.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.AspNetCore.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.aspnetcore.kestrel\3.0.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.data\3.0.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Data.Interfaces.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Data.Interfaces.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.data\3.0.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Data.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Data.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.diagnostics.internal\3.0.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Diagnostics.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Diagnostics.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.services\3.0.232-preview\runtimes\win\lib\netstandard2.0\Microsoft.ServiceFabric.Services.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Services.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\Microsoft.ServiceFabric.Internal.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Internal.Strings.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\Microsoft.ServiceFabric.Internal.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Internal.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\Microsoft.ServiceFabric.Preview.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Preview.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\System.Fabric.Management.ServiceModel.XmlSerializers.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Management.ServiceModel.XmlSerializers.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\System.Fabric.Management.ServiceModel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Management.ServiceModel.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\System.Fabric.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Strings.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.0.232\lib\net45\System.Fabric.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.aspnetcore.abstractions\2.8.232\lib\net452\Microsoft.ServiceFabric.AspNetCore.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.AspNetCore.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.aspnetcore.kestrel\2.8.232\lib\net452\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.data\2.8.232\lib\net45\Microsoft.ServiceFabric.Data.Interfaces.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Data.Interfaces.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.data\2.8.232\lib\net45\Microsoft.ServiceFabric.Data.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Data.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.diagnostics.internal\2.8.232\lib\net45\Microsoft.ServiceFabric.Diagnostics.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Diagnostics.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.services\2.8.232\lib\net45\Microsoft.ServiceFabric.Services.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.ServiceFabric.Services.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.win32.registry\4.4.0\runtimes\win\lib\net461\Microsoft.Win32.Registry.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Microsoft.Win32.Registry.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\newtonsoft.json\10.0.1\lib\net45\Newtonsoft.Json.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Newtonsoft.Json.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json.bson\1.0.1\lib\net45\Newtonsoft.Json.Bson.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Newtonsoft.Json.Bson.dll".
@@ -552,7 +566,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.IO.Compression.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.Compression.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.io.filesystem\4.3.0\lib\net46\System.IO.FileSystem.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.FileSystem.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.IO.FileSystem.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.FileSystem.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.io.filesystem.accesscontrol\4.5.0-preview1-25914-04\runtimes\win\lib\net461\System.IO.FileSystem.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.FileSystem.AccessControl.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.io.filesystem.accesscontrol\4.4.0\runtimes\win\lib\net461\System.IO.FileSystem.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.FileSystem.AccessControl.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.FileSystem.Primitives.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.IO.FileSystem.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.IO.FileSystem.Primitives.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.numerics.vectors\4.4.0\lib\net46\System.Numerics.Vectors.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Numerics.Vectors.dll".
@@ -566,7 +580,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.Runtime.Extensions.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Runtime.Extensions.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.runtime.interopservices\4.3.0\lib\net462\System.Runtime.InteropServices.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Runtime.InteropServices.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.Runtime.InteropServices.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Runtime.InteropServices.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.accesscontrol\4.5.0-preview1-25914-04\runtimes\win\lib\net461\System.Security.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.AccessControl.dll".
+    Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.security.accesscontrol\4.4.0\runtimes\win\lib\net461\System.Security.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.AccessControl.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.cryptography.algorithms\4.3.0\runtimes\win\lib\net461\System.Security.Cryptography.Algorithms.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Algorithms.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.Security.Cryptography.Algorithms.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Algorithms.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.cryptography.encoding\4.3.0\runtimes\win\lib\net46\System.Security.Cryptography.Encoding.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Encoding.dll".
@@ -576,7 +590,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.cryptography.x509certificates\4.3.0\runtimes\win\lib\net461\System.Security.Cryptography.X509Certificates.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.X509Certificates.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.Security.Cryptography.X509Certificates.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.X509Certificates.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.security.cryptography.xml\4.4.0\lib\net461\System.Security.Cryptography.Xml.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Cryptography.Xml.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.principal.windows\4.5.0-preview1-25914-04\runtimes\win\lib\net461\System.Security.Principal.Windows.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Principal.Windows.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.principal.windows\4.4.0\runtimes\win\lib\net461\System.Security.Principal.Windows.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Security.Principal.Windows.dll".
     Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.text.encoding.codepages\4.3.0\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Text.Encoding.CodePages.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.text.encodings.web\4.4.0\lib\netstandard2.0\System.Text.Encodings.Web.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Text.Encodings.Web.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.threading.tasks.extensions\4.4.0\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Threading.Tasks.Extensions.dll".
@@ -669,15 +683,6 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\lib\System.Xml.XmlSerializer.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Xml.XmlSerializer.dll".
     Creating directory "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs".
     Copying file from "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\Microsoft.CSharp.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.CSharp.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.aspnetcore.abstractions\3.0.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.AspNetCore.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.AspNetCore.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.aspnetcore.kestrel\3.0.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.data\3.0.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Data.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Data.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.data\3.0.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Data.Interfaces.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Data.Interfaces.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.diagnostics.internal\3.0.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Diagnostics.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Diagnostics.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Internal.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Internal.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Internal.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Internal.Strings.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Preview.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Preview.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric.services\3.0.232-preview\ref\netstandard2.0\Microsoft.ServiceFabric.Services.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Services.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\Microsoft.Win32.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.Win32.Primitives.dll".
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.win32.registry\4.4.0\ref\net461\Microsoft.Win32.Registry.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.Win32.Registry.dll".
     Copying file from "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\mscorlib.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\mscorlib.dll".
@@ -713,9 +718,6 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.Drawing.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Drawing.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Drawing.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Drawing.Primitives.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Dynamic.Runtime.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Dynamic.Runtime.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\ref\netstandard2.0\System.Fabric.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Fabric.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\ref\netstandard2.0\System.Fabric.Management.ServiceModel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Fabric.Management.ServiceModel.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\microsoft.servicefabric\6.1.232-preview\ref\netstandard2.0\System.Fabric.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Fabric.Strings.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Globalization.Calendars.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Globalization.Calendars.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Globalization.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Globalization.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Globalization.Extensions.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Globalization.Extensions.dll".
@@ -723,7 +725,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.IO.Compression.FileSystem.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.Compression.FileSystem.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.IO.Compression.ZipFile.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.Compression.ZipFile.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.IO.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.io.filesystem.accesscontrol\4.5.0-preview1-25914-04\ref\net461\System.IO.FileSystem.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.FileSystem.AccessControl.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.io.filesystem.accesscontrol\4.4.0\ref\net461\System.IO.FileSystem.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.FileSystem.AccessControl.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.IO.FileSystem.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.FileSystem.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.IO.FileSystem.DriveInfo.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.FileSystem.DriveInfo.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.IO.FileSystem.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.IO.FileSystem.Primitives.dll".
@@ -769,7 +771,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Runtime.Serialization.Json.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.Serialization.Json.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Runtime.Serialization.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.Serialization.Primitives.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Runtime.Serialization.Xml.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Runtime.Serialization.Xml.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.accesscontrol\4.5.0-preview1-25914-04\ref\net461\System.Security.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.AccessControl.dll".
+    Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.security.accesscontrol\4.4.0\ref\net461\System.Security.AccessControl.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.AccessControl.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Security.Claims.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Claims.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Security.Cryptography.Algorithms.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.Algorithms.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Security.Cryptography.Csp.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.Csp.dll".
@@ -779,7 +781,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.security.cryptography.xml\4.4.0\ref\net461\System.Security.Cryptography.Xml.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Cryptography.Xml.dll".
     Copying file from "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.Security.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Security.Principal.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Principal.dll".
-    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.principal.windows\4.5.0-preview1-25914-04\ref\net461\System.Security.Principal.Windows.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Principal.Windows.dll".
+    Copying file from "C:\Users\grishkov.mn\.nuget\packages\system.security.principal.windows\4.4.0\ref\net461\System.Security.Principal.Windows.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.Principal.Windows.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Security.SecureString.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Security.SecureString.dll".
     Copying file from "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.ServiceModel.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.ServiceModel.dll".
     Copying file from "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\net461\ref\System.Text.Encoding.dll" to "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Text.Encoding.dll".
@@ -919,15 +921,6 @@ Target PackageDeployableServices:
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\Newtonsoft.Json.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\Newtonsoft.Json.dll".
     Creating directory "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.CSharp.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.CSharp.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.AspNetCore.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.AspNetCore.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Data.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Data.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Data.Interfaces.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Data.Interfaces.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Diagnostics.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Diagnostics.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Internal.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Internal.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Internal.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Internal.Strings.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Preview.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Preview.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.ServiceFabric.Services.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.ServiceFabric.Services.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.Win32.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.Win32.Primitives.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\Microsoft.Win32.Registry.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\Microsoft.Win32.Registry.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\mscorlib.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\mscorlib.dll".
@@ -963,9 +956,6 @@ Target PackageDeployableServices:
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Drawing.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Drawing.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Drawing.Primitives.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Drawing.Primitives.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Dynamic.Runtime.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Dynamic.Runtime.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Fabric.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Fabric.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Fabric.Management.ServiceModel.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Fabric.Management.ServiceModel.dll".
-    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Fabric.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Fabric.Strings.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Globalization.Calendars.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Globalization.Calendars.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Globalization.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Globalization.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\refs\System.Globalization.Extensions.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\refs\System.Globalization.Extensions.dll".
@@ -1088,6 +1078,7 @@ Target PackageDeployableServices:
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Dynamic.Runtime.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Dynamic.Runtime.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Fabric.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Management.ServiceModel.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Fabric.Management.ServiceModel.dll".
+    Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Management.ServiceModel.XmlSerializers.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Fabric.Management.ServiceModel.XmlSerializers.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Fabric.Strings.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Fabric.Strings.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Globalization.Calendars.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Globalization.Calendars.dll".
     Copying file from "C:\Work\_temp\sf-statefull-web-api\Web1\obj\Debug\net462\win7-x64\PubTmp\Out\System.Globalization.dll" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\Web1Pkg\Code\System.Globalization.dll".
@@ -1180,7 +1171,7 @@ Target PackageApplication:
   Copying file from "C:\Work\_temp\sf-statefull-web-api\Application1\ApplicationPackageRoot\ApplicationManifest.xml" to "C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug\ApplicationManifest.xml".
 Target CollectPackageFiles:
   Application1 -> C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug
--------- Package: Project: Application1 succeeded, Time elapsed: 00:00:04.8484261 --------
+-------- Package: Project: Application1 succeeded, Time elapsed: 00:00:04.9621610 --------
 2>Started executing script 'Deploy-FabricApplication.ps1'.
 2>. 'C:\Work\_temp\sf-statefull-web-api\Application1\Scripts\Deploy-FabricApplication.ps1' -ApplicationPackagePath 'C:\Work\_temp\sf-statefull-web-api\Application1\pkg\Debug' -PublishProfileFile 'C:\Work\_temp\sf-statefull-web-api\Application1\PublishProfiles\Local.5Node.xml' -DeployOnly:$true -ApplicationParameter:@{} -UnregisterUnusedApplicationVersionsAfterUpgrade $false -OverrideUpgradeBehavior 'None' -OverwriteBehavior 'Always' -SkipPackageValidation:$true -ErrorAction Stop
 2>Application Type  Application1Type  and Version  1.0.0  was already registered with Cluster, unregistering it...
@@ -1192,6 +1183,6 @@ Target CollectPackageFiles:
 2>Removing application package from image store...
 2>Remove application package succeeded
 2>Finished executing script 'Deploy-FabricApplication.ps1'.
-2>Time elapsed: 00:00:31.8372965
+2>Time elapsed: 00:00:32.9868552
 ========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
 ========== Deploy: 1 succeeded, 0 failed, 0 skipped ==========

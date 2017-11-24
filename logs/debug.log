@@ -11,14 +11,14 @@ ApplicationParameters  : { "Web1_TargetReplicaSetSize" = "3";
                          e":null,"ConfigPackageLinkFolder":null,"DataPackageName":null,"DataPackageLinkFolder":null,"Lo
                          ckFile":null,"WorkingFolder":null,"ServiceManifestName":"Web1Pkg","EntryPointType":"Main","Deb
                          ugExePath":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Pac
-                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {f3d01b96-e324-4eb9-8cda-daac5ab6
-                         a397} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
+                         kages\\Debugger\\VsDebugLaunchNotify.exe","DebugArguments":" {e8c18080-3fbe-4ce9-b2e4-f2b4055e
+                         e294} -p [ProcessId] -tid [ThreadId]","DebugParametersFile":null}]" }
 
 Create application succeeded.
 
 
 Finished executing script 'Publish-NewServiceFabricApplication'.
-Time elapsed: 00:00:10.4097179
+Time elapsed: 00:00:11.3145998
 Started executing script 'Get-ServiceFabricApplicationStatus'.
 [void](Connect-ServiceFabricCluster); Import-Module 'C:\Program Files\Microsoft SDKs\Service Fabric\Tools\PSModule\ServiceFabricSDK\ServiceFabricSDK.psm1'; Get-ServiceFabricApplicationStatus -ApplicationName 'fabric:/Application1' -ErrorAction Stop
 The application has started.
@@ -31,395 +31,171 @@ fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Service Status:
-fabric:/Application1/Web1 is not ready, 1 partitions remaining.
-
 'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\Web1.exe'. Symbols loaded.
+'Web1.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Web1.exe'. Symbols loaded.
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Fabric\v4.0_6.0.0.0__31bf3856ad364e35\System.Fabric.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Services.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\netstandard.dll'. Module was built without symbols.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.Interfaces.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Services.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\Microsoft.ServiceFabric.Data.Interfaces\v4.0_5.0.0.0__31bf3856ad364e35\Microsoft.ServiceFabric.Data.Interfaces.dll'. Cannot find or open the PDB file.
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Internal.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll'. Cannot find or open the PDB file.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Internal.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll'. Cannot find or open the PDB file.
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Fabric.Strings\v4.0_6.0.0.0__31bf3856ad364e35\System.Fabric.Strings.dll'. Cannot find or open the PDB file.
 'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Cannot find or open the PDB file.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.dll'. Cannot find or open the PDB file.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Data.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code\NS\Microsoft.ServiceFabric.Data.Impl.dll'. Cannot find or open the PDB file.
-'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App82\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Diagnostics.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code\Microsoft.ServiceFabric.Data.Impl.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code\System.Fabric.BackupRestore.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.Diagnostics.dll'. Cannot find or open the PDB file.
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
 Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Hosting.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\netstandard.dll'. Module was built without symbols.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.AspNetCore.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.ServiceFabric.AspNetCore.Kestrel.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Http.Features.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Hosting.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Configuration.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Server.Kestrel.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.FileProviders.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Configuration.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Primitives.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.DependencyInjection.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Diagnostics.DiagnosticSource.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Http.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Configuration.FileExtensions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Http.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Options.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Logging.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.ObjectPool.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.FileProviders.Physical.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.FileSystemGlobbing.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Logging.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Runtime.InteropServices.RuntimeInformation.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Configuration.Json.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'Anonymously Hosted DynamicMethods Assembly'. 
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Newtonsoft.Json.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.Core.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.Razor.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Razor.Runtime.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.RazorPages.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.Cors.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Routing.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.DependencyModel.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Text.Encodings.Web.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Buffers.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.ValueTuple.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Routing.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Authentication.Core.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Authorization.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Authorization.Policy.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Authentication.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.DataProtection.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Antiforgery.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.WebEncoders.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Cryptography.Internal.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.CodeAnalysis.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Runtime.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Razor.Language.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.CodeAnalysis.Razor.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Caching.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Caching.Memory.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.Cors.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Net.Http.Headers.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Runtime.CompilerServices.Unsafe.dll'. Module was built without symbols.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Win32.Registry.dll'. Cannot find or open the PDB file.
+Exception thrown: 'System.UnauthorizedAccessException' in mscorlib.dll
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Security.Principal.Windows.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Logging.Console.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Logging.Debug.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Localization.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.AspNetCore.JsonPatch.dll'. Cannot find or open the PDB file.
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.FileProviders.Composite.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\System.Collections.Immutable.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\SfDevCluster\Data\_App\_Node_0\Application1Type_App84\Web1Pkg.Code.1.0.0\Microsoft.Extensions.Hosting.Abstractions.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Cannot find or open the PDB file.
+Exception thrown: 'System.Runtime.InteropServices.COMException' in System.Fabric.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll'. Cannot find or open the PDB file.
+'Web1.exe' (CLR v4.0.30319: Web1.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll'. Cannot find or open the PDB file.
+Exception thrown: 'System.Runtime.InteropServices.COMException' in System.Fabric.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in System.Fabric.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in System.Fabric.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
+Exception thrown: 'System.Runtime.InteropServices.COMException' in System.Fabric.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+Exception thrown: 'System.Fabric.FabricTransientException' in Microsoft.ServiceFabric.Data.Impl.dll
+The program '[15732] Web1.exe' has exited with code 0 (0x0).
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.AggregateException' in mscorlib.dll
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
-Exception thrown: 'System.IO.FileNotFoundException' in System.Fabric.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Runtime.InteropServices.COMException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.Collections.Generic.KeyNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in Microsoft.ServiceFabric.Data.Impl.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
-The program '[7636] Web1.exe' has exited with code 0 (0x0).
+Service Status:
+fabric:/Application1/Web1 is not ready, 1 partitions remaining.
+
 Service Status:
 fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
@@ -431,4 +207,4 @@ fabric:/Application1/Web1 is not ready, 1 partitions remaining.
 
 Something is taking too long, the application is still not ready.
 Finished executing script 'Get-ServiceFabricApplicationStatus'.
-Time elapsed: 00:00:46.4005983
+Time elapsed: 00:00:46.6099535
