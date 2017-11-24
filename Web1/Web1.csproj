@@ -19,7 +19,7 @@
     <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="3.0.232-preview" />
     <PackageReference Include="Microsoft.ServiceFabric.Data" Version="3.0.232-preview" />
     <PackageReference Include="Microsoft.ServiceFabric.Services" Version="3.0.232-preview" />
-    <PackageReference Include="System.IO.FileSystem.AccessControl" Version="4.5.0-preview1-25914-04" />
+    <PackageReference Include="System.IO.FileSystem.AccessControl" Version="4.4.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(NoTools)' != 'True'">
